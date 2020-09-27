@@ -1,0 +1,35 @@
+.header{
+    display:flex;
+    justify-content: space-evenly;
+    padding:20px;
+}
+
+.header__main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: #f5f6fa;
+}
+
+.header__dropdown{
+    background-color: white;
+}
+
+.header__left{
+
+    flex:0.9;
+}
+.header__stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:990px){
+    .header{
+        flex-direction: column;
+    }
+}
